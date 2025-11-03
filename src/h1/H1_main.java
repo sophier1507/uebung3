@@ -3,13 +3,10 @@ package h1;
 public class H1_main {
 	public static void main(String[] args) {
 		
-		double guthaben, monEingang;
-		guthaben = -100;
-		monEingang = 200;
+		double guthaben = -100, monEingang = 200;
 		int rating = -2;
-		boolean warnhinweis, negativ;
-		warnhinweis = false;
-		negativ = true;
+		boolean warnhinweis = false, negativ = true;
+
 		
 		if (guthaben < 0) {
 			negativ = true;
